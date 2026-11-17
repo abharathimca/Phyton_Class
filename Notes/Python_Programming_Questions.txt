@@ -1,0 +1,120 @@
+QUESTION 1: STUDENT INFORMATION
+
+Write a Python program to: - Create variables for student name, age,
+percentage, and student status. - Assign appropriate data types. - Print
+all the details using an f-string.
+
+Expected output: Student Name: Arun Age: 22 Percentage: 85.5 Is Student:
+True
+
+QUESTION 2: CALCULATE TOTAL MARKS
+
+Write a Python program to: - Create three variables containing marks as
+strings: “80”, “75”, and “90”. - Convert these string values into
+integers. - Calculate the total and average marks. - Display the result
+using an f-string.
+
+Expected output: Total Marks: 245 Average Marks: 81.67
+
+QUESTION 3: EMPLOYEE SALARY DETAILS
+
+Write a Python program to: - Create variables for employee name, basic
+salary, and bonus. - Convert the salary values into appropriate numeric
+data types if required. - Calculate the total salary. - Display the
+employee details and total salary using an f-string.
+
+Example: Employee Name: Kumar Basic Salary: 25000 Bonus: 5000 Total
+Salary: 30000
+
+QUESTION 1: STRING MANIPULATION
+
+Write a Python program to: - Store “python programming” in a variable. -
+Convert it into uppercase. - Convert it into title case. - Find the
+length of the string. - Check whether the string starts with “python”.
+
+QUESTION 2: REVERSE AND EXTRACT A STRING
+
+Write a Python program using the following string:
+
+name = “Python Programming”
+
+Perform the following operations: - Print the first 6 characters. -
+Print the last 11 characters. - Extract “Programming” using slicing. -
+Reverse the complete string using slicing. - Print every second
+character.
+
+QUESTION 3: SIMPLE CALCULATOR USING OPERATORS
+
+Write a Python program to: - Get two numbers from the user. - Perform
+addition, subtraction, multiplication, division, floor division, and
+modulus. - Display all results.
+
+Example: Enter first number: 20 Enter second number: 6
+
+Addition: 26 Subtraction: 14 Multiplication: 120 Division: 3.333 Floor
+Division: 3 Modulus: 2
+
+QUESTION 1: POSITIVE, NEGATIVE OR ZERO
+
+Write a Python program to: - Get a number from the user. - Check whether
+the number is positive, negative, or zero. - Display the appropriate
+message using if, elif, and else.
+
+QUESTION 2: ELECTRICITY BILL CALCULATION
+
+Write a Python program to calculate an electricity bill based on the
+number of units consumed.
+
+Conditions: - If units are less than or equal to 100, charge Rs. 2 per
+unit. - If units are greater than 100 and less than or equal to 200,
+charge Rs. 3 per unit. - If units are greater than 200, charge Rs. 5 per
+unit.
+
+Display the total electricity bill.
+
+Example: Enter electricity units: 150 Total Electricity Bill: Rs. 450
+
+Note: Apply the applicable rate to all units consumed, rather than
+slab-wise billing.
+
+QUESTION 3: ATM WITHDRAWAL SYSTEM
+
+Write a Python program to simulate a simple ATM withdrawal.
+
+Conditions: - Initial balance = Rs. 10,000. - Get the withdrawal amount
+from the user. - Check whether the withdrawal amount is greater than
+zero. - Check whether sufficient balance is available. - If sufficient
+balance is available, deduct the amount and display the remaining
+balance. - Otherwise, display an insufficient balance message.
+
+Use nested if and else statements.
+
+QUESTION 1: LIST CREATION AND ACCESS
+
+Write a Python program to: - Create a list containing five student
+names. - Print the complete list. - Print the first element. - Print the
+last element. - Print the list length. - Print the list in reverse order
+using slicing.
+
+Example: students = [“Arun”, “Vijay”, “Kumar”, “Ravi”, “Ajay”]
+
+QUESTION 2: LIST MODIFICATION
+
+Write a Python program using the following list:
+
+numbers = [10, 20, 30, 40, 50]
+
+Perform the following operations: - Change the first element to 100. -
+Insert 25 at index 2. - Add 60 at the end of the list. - Remove the
+value 40. - Extend the list with [70, 80]. - Print the final list.
+
+QUESTION 3: LIST OPERATIONS AND CALCULATIONS
+
+Write a Python program using the following list:
+
+marks = [85, 60, 95, 70, 80]
+
+Perform the following operations: - Sort the list in ascending order. -
+Sort the list in descending order. - Find the maximum mark. - Find the
+minimum mark. - Calculate the total marks. - Calculate the average
+marks. - Check whether all marks are greater than zero using all().
