@@ -1,0 +1,133 @@
+QUESTION 1: TUPLE DETAILS
+
+Create a tuple containing the names of five cities.
+Perform the following operations:
+- Print the tuple.
+- Display the city at index 2.
+- Display the last three cities using slicing.
+- Check how many times a selected city appears using count().
+- Find the index of a selected city using index().
+
+
+QUESTION 2: TUPLE UPDATE THROUGH LIST CONVERSION
+
+Create a tuple containing the values 10, 20, 30, 40, and 50.
+Since tuples are immutable:
+- Convert the tuple into a list.
+- Replace 30 with 35.
+- Add 60 to the list.
+- Remove the first element.
+- Convert the updated list back into a tuple.
+- Print the final tuple.
+
+
+QUESTION 3: COMBINE AND PROCESS TUPLES
+
+Create two tuples:
+colors1 = ("red", "blue", "green")
+colors2 = ("yellow", "blue", "white")
+
+Perform the following operations:
+- Combine both tuples into a new tuple.
+- Print the combined tuple.
+- Count how many times "blue" appears.
+- Display the combined tuple using slicing to show alternate elements.
+
+
+QUESTION 4: FIND COMMON AND UNIQUE ELEMENTS
+
+Create two sets:
+morning_batch = {"Arun", "Bala", "Charan", "Divya"}
+evening_batch = {"Bala", "Divya", "Ezhil", "Farah"}
+
+Perform the following operations:
+- Display students present in either batch.
+- Display students present in both batches.
+- Display students present only in the morning batch.
+- Display students present only in the evening batch.
+
+
+QUESTION 5: REMOVE DUPLICATE NAMES
+
+Create a list containing the following names, including duplicates:
+
+names = ["Ravi", "Priya", "Ravi", "Kumar", "Priya", "Anu", "Kumar"]
+
+Convert the list into a set and print the unique names.
+Then convert the set back into a list and print the list.
+
+
+QUESTION 6: UPDATE PRODUCT SETS
+
+Create two sets:
+available_products = {"Laptop", "Mouse", "Keyboard"}
+new_products = {"Monitor", "Mouse", "Printer"}
+
+Perform the following operations:
+- Add "Webcam" to available_products.
+- Remove "Keyboard" from available_products.
+- Combine available_products and new_products using the union operator.
+- Find the products common to both sets using the intersection operator.
+- Find the products available only in available_products using the difference operator.
+
+
+QUESTION 7: STUDENT MARKS DICTIONARY
+
+Create a dictionary named marks with the following details:
+
+marks = {"Arun": 85, "Bala": 92, "Charan": 78, "Divya": 88}
+
+Perform the following operations:
+- Display the marks of Bala using square brackets.
+- Retrieve the marks of Charan using get().
+- Display all student names using keys().
+- Display all marks using values().
+- Display all student names and marks using items().
+
+
+QUESTION 8: DEPARTMENT STAFF DICTIONARY
+
+Create a nested dictionary containing department names and employee names:
+
+department_staff = {
+    "HR": ["Ravi", "Sita"],
+    "IT": ["Varun", "Ananya"],
+    "Sales": ["Kiran", "Meena"]
+}
+
+Perform the following operations:
+- Print the complete dictionary.
+- Display all employees in the IT department.
+- Display the first employee in the HR department.
+- Display the last employee in the Sales department.
+- Add one more employee to the HR list and print the updated dictionary.
+
+
+QUESTION 9: MANAGE A SHOPPING CART DICTIONARY
+
+Create a dictionary for a shopping cart:
+
+cart = {"Pen": 10, "Notebook": 50, "Bag": 500}
+
+Perform the following operations:
+- Add "Pencil" with a value of 5.
+- Update the value of "Notebook" to 60 using update().
+- Retrieve the value of "Bag" using get().
+- Remove "Pen" using pop() and display the removed value.
+- Display the remaining dictionary.
+- Use clear() to remove all items and print the empty dictionary.
+
+
+QUESTION 10: CREATE A SUBJECT MARKS DICTIONARY USING ZIP
+
+Create the following two lists:
+
+subjects = ["Tamil", "English", "Math", "Science"]
+marks = [90, 85, 95, 88]
+
+Perform the following operations:
+- Create a dictionary using dict(zip(subjects, marks)).
+- Display the dictionary.
+- Use setdefault() to add "Social" with a mark of 80.
+- Use setdefault() on the existing key "Math" with a mark of 100.
+- Print the dictionary and observe whether the existing Math mark changes.
